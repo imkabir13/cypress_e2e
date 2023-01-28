@@ -4,8 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "run-test": "npx cypress run --record --key 7cca7093-d150-4348-ae58-174aa77ec213"
+    "cy:verify": "cypress verify",
+    "cy:info": "cypress info",
+    "cy:version": "cypress version",
+    "cy:cache:list": "cypress cache list",
+    "cy:run": "cypress run",
+    "cy:run:record": "cypress run --record --key 7cca7093-d150-4348-ae58-174aa77ec213",
+    "cy:open": "cypress open",
+    "run-test": "npx cypress run --record"
   },
   "keywords": [],
   "author": "",
